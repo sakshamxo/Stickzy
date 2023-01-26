@@ -1,0 +1,89 @@
+gsap.from(".b0",{
+    y:-50,
+    duration:2,
+    repeat:20,
+    yoyo:true,
+    ease:Power3
+})
+gsap.from("#vec",{
+    y:-50,
+    duration:2,
+    repeat:20,
+    yoyo:true,
+    ease:Power3
+})
+gsap.from(".cir",{
+    x:-50,
+    duration:2,
+    repeat:20,
+    yoyo:true,
+    ease:Power3
+})
+var tl = gsap.timeline();
+tl
+.from(".cir",{
+    left:"100%",
+    stagger:.3,
+    duration:.5,
+    ease:Power3
+})
+.from(".txt",{
+    x:"100%",
+    stagger:.3,
+    duration:.5,
+    ease:Power3
+})
+.from("#logo",{
+    y:"-100%",
+    stagger:.3,
+    duration:.5,
+    ease:Power3
+})
+.from("#menu a",{
+    y:"-170%",
+    stagger:.3,
+    duration:.5,
+    ease:Power3
+})
+.from("#src",{
+    y:"-170%",
+    stagger:1,
+    duration:.5,
+    ease:Power3
+})
+.from("#cart",{
+    y:"-190%",
+    stagger:1,
+    duration:.5,
+    ease:Power3
+})
+.from("#vec",{
+    left:"-100%",
+    //stagger:1,
+    duration:.5,
+    ease:Power3
+})
+.from(".stick",{
+    left:"-100%",
+    stagger:.3,
+    duration:.5,
+    ease:Power3
+})
+.from("#para",{
+    x:"150%",
+    //stagger:1,
+    duration:.5,
+    ease:Power3
+})
+.from("#btn1",{
+    y:"310%",
+    stagger:.3,
+    duration:.5,
+    ease:Power3
+})
+.from("#ico",{
+    y:"500%",
+    stagger:.3,
+    duration:.5,
+    ease:Power3
+})
